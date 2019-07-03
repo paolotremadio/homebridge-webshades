@@ -6,7 +6,7 @@ class WebshadesAdapter {
     debug(`Using "webshades" adapter - ${baseUrl} - ${deviceId}`);
 
     this.baseUrl = baseUrl;
-    this.deviceId = deviceId;
+    this.deviceId = deviceId.toLowerCase();
 
     this.pollingMs = 30 * 60 * 1000; // 30 minutes
     this.tolerancePercentage = 5; // 5%
