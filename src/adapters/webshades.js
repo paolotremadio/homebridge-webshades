@@ -8,7 +8,7 @@ class WebshadesAdapter {
     this.baseUrl = baseUrl;
     this.deviceId = deviceId;
 
-    this.pollingMs = 300000; // 5 minutes
+    this.pollingMs = 30 * 60 * 1000; // 30 minutes
     this.tolerancePercentage = 5; // 5%
     this.batteryService = true;
 
