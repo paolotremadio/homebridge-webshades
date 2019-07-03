@@ -33,7 +33,7 @@ class WebshadesAdapter {
   async getStatus() {
     debug('getStatus()');
 
-    const response = await this.client.get('/status', { deviceId: this.deviceId });
+    const response = await this.client.get(`/status?deviceId=${this.deviceId}`);
 
     const { success, status } = response.data;
 
