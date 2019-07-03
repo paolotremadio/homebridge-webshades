@@ -1,7 +1,7 @@
 {
   "name": "homebridge-webshades",
   "description": "Simple blinds / shades plugin for Homebridge",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Paolo Tremadio"
   },
